@@ -7,7 +7,7 @@ int main() {
         scanf("%d",&following);
         scanf("%d",&follower);
 
-        if(following - follower >= 10){
+        if(following > 10*follower){
             printf("Yes\n");
         }
         else {
